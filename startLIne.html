@@ -51,27 +51,6 @@
                 font-family: 'Inter', sans-serif;
             }
 
-            table {
-                page-break-after: auto
-            }
-
-            tr {
-                page-break-inside: avoid;
-                page-break-after: auto
-            }
-
-            td {
-                page-break-inside: avoid;
-                page-break-after: auto
-            }
-
-            thead {
-                display: table-header-group
-            }
-
-            tfoot {
-                display: table-footer-group
-            }
         }
     </style>
 </head>
@@ -79,295 +58,122 @@
 <div style="padding: 10px;">
     <!-- main table -->
     <table width="100%" cellspacing="0" cellpadding="0" style="border-collapse: collapse; margin-top: 10px;">
-        <thead style="border: 2px solid black; font-size: 14px; font-weight: 600; color:black">
-        <td colspan="1" style="border-right: 2px solid black; text-align: center; padding: 2px;">
-            Counter
-        </td>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="0" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th style="border: 2px solid black; border-right: 0; text-align: center; width: 20%">Counter</th>
+                                <th style="border: 2px solid black; text-align: center; width: 20%">User Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td style="border: 2px solid black; border-right: 0; border-top: 0; text-align: center; width: 20%">Mohipal-2</td>
+                            <td style="border: 2px solid black;  border-top: 0; text-align: center; width: 20%">mr. Robin</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
 
-        <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-            User Name
-        </td>
-        <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-            Route
-        </td>
-        <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-            Sold Seats
-        </td>
-        <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-            Discount
-        </td>
-        <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-            Fare
-        </td>
-        <td style="border-right: 2px solid black; text-align: center;">
-            Commission
-        </td>
-        <td style="border-right: 2px solid black; text-align: center;">
-            Receive Amount
-        </td>
-        </thead>
-        <tbody>
-        <tr style="border: 2px solid black; font-size: 12px; font-weight: 400; color:black">
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                Mohipal-1
-            </td>
+<!--                right side-->
 
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                lakhi
-            </td>
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                <table class="borderNone" width="100%" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td style="border-bottom: 2px solid black"> Feni - Cox's Bazar</td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom: 2px solid black"> Feni - Cox's Bazar</td>
-                    </tr>
-                </table>
-            </td>
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                <table class="borderNone" width="100%" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td style="border-bottom: 2px solid black">10</td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom: 2px solid black">5</td>
-                    </tr>
-                </table>
-            </td>
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                <table class="borderNone" width="100%" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td style="border-bottom: 2px solid black">0</td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom: 2px solid black">100</td>
-                    </tr>
-                </table>
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                <table class="borderNone" width="100%" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td style="border-bottom: 2px solid black">10000</td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom: 2px solid black">2400</td>
-                    </tr>
-                </table>
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                <table class="borderNone" width="100%" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td style="border-bottom: 2px solid black">0</td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom: 2px solid black">0</td>
-                    </tr>
-                </table>
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                12400
-            </td>
-        </tr>
-        <tr style="border: 2px solid black; font-size: 12px; font-weight: 400; color:black">
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                Mohipal-1
-            </td>
+                <td >
+                        <table width="100%" cellspacing="0" cellpadding="0">
+                            <thead >
+                                <tr>
+                                    <th style="border: 2px solid black; border-left: 0;  font-size: 14px; font-weight: 600; color:black; width: 10%">Route</th>
+                                    <th style="border: 2px solid black; border-left: 0;  font-size: 14px; font-weight: 600; color:black; width: 10%">Sold Seats</th>
+                                    <th style="border: 2px solid black; border-left: 0;  font-size: 14px; font-weight: 600; color:black; width: 10%">Discount</th>
+                                    <th style="border: 2px solid black; border-left: 0;  font-size: 14px; font-weight: 600; color:black; width: 10%">Fare</th>
+                                    <th style="border: 2px solid black; border-left: 0;  font-size: 14px; font-weight: 600; color:black; width: 10%">Commission</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="1" style="border: 2px solid black; border-top: 0; border-left: 0; text-align: center; width: 10%">
+                                        Feni - Cox's Bazar
+                                    </td>
+                                    <td colspan="1" style="border: 2px solid black; border-top: 0; border-left: 0; text-align: center; width: 10%">
+                                        10
+                                    </td>
+                                    <td colspan="1" style="border: 2px solid black; border-top: 0; border-left: 0; text-align: center; width: 10%">
+                                        0
+                                    </td>
+                                    <td colspan="1" style="border: 2px solid black; border-top: 0; border-left: 0; text-align: center; width: 10%">
+                                        10000
+                                    </td>
 
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                lakhi
-            </td>
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                <table class="borderNone" width="100%" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td style="border-bottom: 2px solid black"> Feni - Cox's Bazar</td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom: 2px solid black"> Feni - Cox's Bazar</td>
-                    </tr>
-                </table>
-            </td>
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                <table class="borderNone" width="100%" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td style="border-bottom: 2px solid black">10</td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom: 2px solid black">5</td>
-                    </tr>
-                </table>
-            </td>
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                <table class="borderNone" width="100%" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td style="border-bottom: 2px solid black">0</td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom: 2px solid black">100</td>
-                    </tr>
-                </table>
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                <table class="borderNone" width="100%" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td style="border-bottom: 2px solid black">10000</td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom: 2px solid black">2400</td>
-                    </tr>
-                </table>
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                <table class="borderNone" width="100%" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td style="border-bottom: 2px solid black">0</td>
-                    </tr>
-                    <tr>
-                        <td style="border-bottom: 2px solid black">0</td>
-                    </tr>
-                </table>
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                12400
-            </td>
-        </tr>
-        <tr style="border: 2px solid black; font-size: 12px; font-weight: 400; color:black">
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                Alankar
-            </td>
+                                    <td colspan="1" style="border: 2px solid black; border-top: 0; border-left: 0; text-align: center; width: 10%">
+                                        0
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1" style="border: 2px solid black; border-top: 0; border-left: 0; text-align: center; width: 10%">
+                                        Feni - Cox's Bazar
+                                    </td>
+                                    <td colspan="1" style="border: 2px solid black; border-top: 0; border-left: 0; text-align: center; width: 10%">
+                                        10
+                                    </td>
+                                    <td colspan="1" style="border: 2px solid black; border-top: 0; border-left: 0; text-align: center; width: 10%">
+                                        0
+                                    </td>
+                                    <td colspan="1" style="border: 2px solid black; border-top: 0; border-left: 0; text-align: center; width: 10%">
+                                        10000
+                                    </td>
 
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                Jahid
-            </td>
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                Chittagong- Cox's Bazar
-            </td>
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                4
-            </td>
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                0
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                1200
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                0
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                12400
-            </td>
-        </tr>
-        <tr style="border: 2px solid black; font-size: 12px; font-weight: 400; color:black">
-            <td colspan="3"
-                style="border-right: 2px solid black; text-align: right;">
-                Sub Total
-            </td>
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                29
-            </td>
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                100
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                1200
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                0
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                20600
-            </td>
-        </tr>
-        <tr style="border: 2px solid black; font-size: 12px; font-weight: 400; color:black">
-            <td colspan="3"
-                style="border-right: 2px solid black; text-align: right;">
-                Goods and Luggage Total
-            </td>
-            <td colspan="4"
-                style="border-right: 2px solid black; text-align: center;">
+                                    <td colspan="1" style="border: 2px solid black; border-top: 0; border-left: 0; text-align: center; width: 10%">
+                                        0
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </td>
 
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                0
-            </td>
-        </tr>
-        <tr style="border: 2px solid black; font-size: 12px; font-weight: 400; color:black">
-            <td colspan="3"
-                style="border-right: 2px solid black; text-align: right;">
-                Helper/ Supervisor/ Driver Salary
-            </td>
-            <td colspan="4"
-                style="border-right: 2px solid black; text-align: center;">
-
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                0
-            </td>
-        </tr>
-        <tr style="border: 2px solid black; font-size: 12px; font-weight: 400; color:black">
-            <td colspan="3"
-                style="border-right: 2px solid black; text-align: right;">
-                Trip Expense Total
-            </td>
-            <td colspan="4"
-                style="border-right: 2px solid black; text-align: center;">
-
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                (-) 0
-            </td>
-        </tr>
-        <tr style="border: 2px solid black; font-size: 12px; font-weight: 400; color:black">
-            <td colspan="3"
-                style="border-right: 2px solid black; text-align: right;">
-                Total
-            </td>
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                29
-            </td>
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                100
-            </td>
-            <td colspan="1"
-                style="border-right: 2px solid black; text-align: center;">
-                20600
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                0
-            </td>
-            <td colspan="1" style="border-right: 2px solid black; text-align: center;">
-                20600
-            </td>
-        </tr>
-        </tbody>
+<!--                receive amount-->
+                <td >
+                    <table width="100%" cellpadding="0" cellspacing="0">
+                        <thead>
+                        <tr>
+                            <th style="border: 2px solid black; border-left: 0; text-align: center; width: 10%">Receive Amount</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td style="border: 2px solid black; border-left: 0; border-top: 0; text-align: center; width: 10%">12400</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
     </table>
 
 </div>
 </body>
 
 <style>
-    .borderNone tr:last-child td {
-        border-bottom: 0px solid black !important;
+    /*.borderNone tr:last-child td {*/
+    /*    border-bottom: 0px solid black !important;*/
+    /*}*/
+    td, tr, th {
+        padding: 0;
+        margin: 0;
+    }
+
+    th, td {
+        word-break: break-word;
+    }
+    th{
+        height: 50px;
+    }
+
+    table {
+        width: 100%;
+        height: 100%;
+        border-spacing: 0;
+    }
+    table, tr {
+        page-break-inside : avoid;
     }
 </style>
 </html>
